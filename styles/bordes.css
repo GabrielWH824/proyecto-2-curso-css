@@ -1,0 +1,52 @@
+.contenedor-grilla {
+    display: grid;
+    grid-template-columns: 30% 30% auto;
+    /* grid-template-rows: 30% 30% auto; */
+    gap: 50px;
+    background-color:#394240;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.contenedor-grilla>div {
+    background-color: #f06b50;
+    /* border: 2px solid rgb(79, 97, 79); */
+    text-align: center;
+}
+
+.cajita {
+    width: 150px;
+    height: 150px;
+}
+
+.solid {
+    border: 5px solid #faf4b1;
+}
+
+.dotted {
+    border: 10px dotted #faf4b1;
+}
+
+.dashed {
+    border: 10px dashed #faf4b1;
+}
+
+.double {
+    border: 10px double #faf4b1;
+}
+
+.groove {
+    border: 10px groove #faf4b1;
+}
+
+.ridge {
+    border: 10px ridge #faf4b1;
+}
+
+.inset {
+    border: 10px inset #faf4b1;
+}
+
+.outset {
+    border: 10px outset #faf4b1;
+}

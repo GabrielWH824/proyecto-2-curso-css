@@ -1,0 +1,55 @@
+/* .contenedor{
+    background-color: bisque;
+    padding: 10% 5%;
+    margin: 10px;
+} */
+
+
+
+/* .contenedor > h4{
+    display: grid;
+
+    grid-template-columns: 10% 10%;
+
+    gap: 10px;
+    grid-template-rows: 1.3em;
+    border: 2px solid black;
+    padding: 3px 0;
+    margin: 30px 0;
+} */
+
+.cajita{
+    margin: 0 25px;
+    border: 2px solid #394240;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+@keyframes ejemplo{
+    from{
+        left: 0px;
+        background-color: #f06b50;
+    }
+    to{
+        left: 50%;
+        background-color: #faf4b1;
+    }
+}
+
+.linear{
+    animation: ejemplo 4s linear infinite alternate;
+}
+
+.ease{
+    animation: ejemplo 4s ease infinite alternate;
+}
+.ease-in{
+    animation: ejemplo 4s ease-in infinite alternate;
+}
+.ease-out{
+    animation: ejemplo 4s ease-out infinite alternate;
+}
+.ease-in-out{
+    animation: ejemplo 4s ease-in-out infinite alternate;
+}

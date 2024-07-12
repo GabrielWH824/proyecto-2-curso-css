@@ -1,0 +1,109 @@
+.contenedor-grid4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: 30% 30% auto; */
+    
+    background-color:#394240;
+    padding: 0 10px;
+    justify-content: space-evenly;
+}
+
+.contenedor-grid4 > div{
+    background-color:#e1d772;
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor-grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 30% 30% auto; */
+    
+    background-color:#394240;
+    padding: 0 10px;
+    justify-content: space-evenly;
+}
+
+.contenedor-grid3 > div{
+    background-color:#e1d772;
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.contenedor-grid5 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-rows: 30% 30% auto; */
+    
+    background-color: #394240;
+    padding: 0 10px;
+    justify-content: space-evenly;
+}
+
+.contenedor-grid5 > div{
+    background-color:#e1d772;
+    /* width: 100%; */
+    padding: 10px;
+    margin: 10px;
+}
+
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+h4{
+    text-align: center;
+}
+
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.underline{
+    text-decoration: underline;
+}
+.overline-underline{
+    text-decoration: overline underline;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
+.serif{
+    font-family: serif;
+    font-size: 20px;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+    font-size: 17px;
+}
+.monospace{
+    font-family: monospace;
+    font-size: 17px;
+}
+.sant-serif{
+    font-family: sans-serif;
+}
